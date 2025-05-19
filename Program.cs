@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace namespacesModularity
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            BadClass bc = new BadClass();
-            bc.showMenu();
+            Soldier s = new Soldier(); // problem! soldier is not part of this namespace
+            // fix: using army
         }
     }
 }
