@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="School\entities\SchoolClass.cs" />
+    <Compile Include="School\entities\Teacher.cs" />
+    <Compile Include="School\entities\Student.cs" />
+    <Compile Include="School\core\School.cs" />
+    <Compile Include="School\services\StudentService.cs" />
+    <Compile Include="Soldier.cs" />
     <Compile Include="BadClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -50,5 +56,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
